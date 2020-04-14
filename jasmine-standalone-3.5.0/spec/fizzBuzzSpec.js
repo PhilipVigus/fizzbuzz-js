@@ -13,4 +13,8 @@ describe('print numbers from 1 to 100', function() {
   it('returns "Buzz" for multiples of 5', function() {
     expect(fizzBuzz.play(5)).toEqual("Buzz");
   });
+
+  it('returns "Fizzbuzz" for multiples of 3 and 5', function() {
+    expect(fizzBuzz.play(15)).toEqual("FizzBuzz");
+  });
 });
